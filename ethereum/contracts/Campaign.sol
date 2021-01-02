@@ -1,9 +1,7 @@
-pragma solidity >=0.7.0 <0.8.0;
-
+pragma solidity >=0.5.0 <0.8.0;
 contract CampaignFactory {
     
     address[] public deployedCampaigns;
-    
     
     function createCampaign(uint minimum) public {
         Campaign newCampaign=new Campaign(minimum,msg.sender);
