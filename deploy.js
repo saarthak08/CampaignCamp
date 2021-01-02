@@ -1,8 +1,8 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
-const mnemonic = "share planet hollow clog cargo multiply shrimp flee apart rule exist axis";
-const network = "https://rinkeby.infura.io/v3/47a815f55cdf4d51a57fa94cc702b67a"
+const mnemonic = "";
+const network = ""
 
 const provider = new HDWalletProvider(mnemonic, network);
 const web3 = new Web3(provider);
